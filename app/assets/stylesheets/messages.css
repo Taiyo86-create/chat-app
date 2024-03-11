@@ -8,30 +8,114 @@
     height: 100vh;
 }
 
+.main-chat-header{
+    background-color: #FFFFFF;
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-chat-middle{
+    background-color: #FAFAFA;
+    height: calc(100% - 190px);
+    padding: 46px 40px 0;
+    overflow: scroll;
+
+}
+
+.message {
+    margin: 10px 0 0 0;
+  }
+
+.upper-message{
+    display: flex;
+  }
+  
+  .message-user {
+    color: #434a54;
+    font-size: 16px;
+  }
+  
+  .message-date {
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
+  .lower-message {
+    margin-top: 10px;
+  }
+  
+  .message-content {
+    color: #434a54;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+.main-chat-form{
+    background-color: #DDDDDD;
+    height: 90px;
+    padding: 20px 40px;
+    display: flex;
+}
+.form-input {
+    background-color: white;
+    width: 100%;
+    display: flex;
+  }
+
+.form-message{
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.form-submit{
+    background-color: #38AEF0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    margin-left: 15px;
+    padding: 0 20px;
+}
+
+.form-image {
+    font-size: 12px;
+    background-color: lightblue;
+    color: white;
+    padding: 12px;
+    width: 60px;
+    margin: 5px 10px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+.view{
+    font-size: 24px;
+}
+
+.finish{
+    border: 1px solid darkred;
+    padding: 20px;
+}
+
+.finish a{
+    color: darkred;
+    text-decoration: none;
+    
+}
+
 .side-bar{
     width: 300px;
     height: 100vw;
     background-color: #253141;
-}
-
-.main-chat-1{
-    background-color: #FFFFFF;
-    height: 100px;
-    padding: 0 40px;
-}
-
-.main-chat-2{
-    background-color: #FAFAFA;
-    height: calc(100% - 190px);
-    padding: 46px 40px 0;
-
-}
-
-.main-chat-3{
-    background-color: #DDDDDD;
-    height: 90px;
-    padding: 20px 40px;
-    
 }
 
 .side-bar-1{
@@ -41,6 +125,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .side-bar-2{
@@ -55,21 +140,24 @@
     font-size: 16px;
     text-decoration: none;
 }
+.form{
+    border: 1px solid lightblue;
+    padding: 14px;
+}
 
 .form a{
     color: deepskyblue;
-    border: 1px solid lightblue;
-    padding: 14px;
     font-size: 10px;
     height: 42px;
     text-decoration: none;
 }
 
 .room{
-    padding: 20px 20px 40px 20px;
+    padding: 20px 0 40px 20px;
 }
 
 .room a{
     color: white;
     text-decoration: none;
 }
+
